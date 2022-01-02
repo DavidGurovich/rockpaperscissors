@@ -1,0 +1,30 @@
+
+first function : computerPlay
+    randomly chooses between: 'Rock', 'Paper", or 'Scissors'
+    returns the value
+
+round function: playRound. This function takes two parameters: playerSelection and computerSelection
+
+
+                    -------- player wins --------
+    if playerSelection is 'Rock' and computerSelection is 'Scissors':
+        return a message --> "You win!: Rock beats scissors!"
+    if playerSelection is 'Paper' and computerSelection is 'Rock':
+        return a message --> "You win!: "Paper beats 'Rock'
+    if playerSelection is 'Scissors' and computerSelection is 'Paper':
+        return a message --> "You win! Scissors beats paper!
+
+
+                  --------- computer wins --------
+    if playerSelection is 'Scissors' and computerSelection is 'Rock':
+        return a message --> "You lose!: Rock beats scissors!"
+    if playerSelection is 'Rock' and computerSelection is 'Paper':
+        return a message --> "You lose!: "Paper beats 'Rock'
+    if playerSelection is 'Paper' and computerSelection is 'Scissors':
+        return a message --> "You lose! Scissors beats paper!
+
+game function : game.
+    prompt the user
+    store user input as playerSelection 
+    Call the playRound function
+    repeat X5 times
