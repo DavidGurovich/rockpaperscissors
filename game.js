@@ -51,22 +51,22 @@ function game () {
 
     playerSelection = (prompt("Rock, Paper, or Scissors?")).toLowerCase();
     console.log(playRound(playerSelection, computerSelection = computerPlay()))
-    
+    console.log(`${computerScore} ${playerScore}`)
        
     playerSelection = (prompt("Rock, Paper, or Scissors?")).toLowerCase();
     console.log(playRound(playerSelection, computerSelection = computerPlay()))
-    
+    console.log(`${computerScore} ${playerScore}`)
     
     playerSelection = (prompt("Rock, Paper, or Scissors?")).toLowerCase();
     console.log(playRound(playerSelection, computerSelection = computerPlay()))
-     
+    console.log(`${computerScore} ${playerScore}`)
     }  
     playerSelection = (prompt("Rock, Paper, or Scissors?")).toLowerCase();
     console.log(playRound(playerSelection, computerSelection = computerPlay()))
-     
+    console.log(`${computerScore} ${playerScore}`) 
     playerSelection = (prompt("Rock, Paper, or Scissors?")).toLowerCase();
     console.log(playRound(playerSelection, computerSelection = computerPlay()))
-  
+    console.log(`${computerScore} ${playerScore}`)
     
    
 game()
